@@ -1,0 +1,1258 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.modelmissionhighschool.LothTimeTable"
+    style="@style/androidlayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btime_table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="day/period"
+                        android:id="@+id/btextView16"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="1st"
+                        android:id="@+id/btextView18"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="2nd"
+                        android:id="@+id/btextView19"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="3rd"
+                        android:id="@+id/btextView20"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="4th"
+                        android:id="@+id/btextView24"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView25"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="5th"
+                        android:id="@+id/btextView26"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="6th"
+                        android:id="@+id/btextView27"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="7th"
+                        android:id="@+id/btextView28"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textStyle="normal|bold|italic"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Monday"
+                        android:id="@+id/btextView29"
+                        android:layout_column="0"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:paddingRight="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView39"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bm7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Tuesday"
+                        android:id="@+id/btextView30"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView47"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bt7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Wednesday"
+                        android:id="@+id/btextView32"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView55"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bw7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Thursday"
+                        android:id="@+id/btextView33"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView63"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bth7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Friday"
+                        android:id="@+id/btextView34"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView71"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bf7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Saturday"
+                        android:id="@+id/btextView35"
+                        android:layout_column="0"
+                        android:paddingRight="15dp"
+                        android:textStyle="normal|bold|italic"
+                        android:gravity="center"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs1"
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="1st period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs2"
+                        android:layout_column="2"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="2nd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs3"
+                        android:layout_column="3"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="3rd period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs4"
+                        android:layout_column="4"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="4th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="LUNCH"
+                        android:id="@+id/btextView79"
+                        android:layout_column="5"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs5"
+                        android:layout_column="6"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="5th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs6"
+                        android:layout_column="7"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="6th period" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/bs7"
+                        android:layout_column="8"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:hint="7th period" />
+                </TableRow>
+            </TableLayout>
+            <Button
+                style="@style/button"
+                android:id="@+id/bsave_data_button"
+                android:layout_below="@+id/btime_table"
+                android:text="SAVE TIMETABLE"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="70dp"
+                android:onClick="bsavetimetable"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/bsave_data_button">
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1st class"
+                        android:id="@+id/bbutton9"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton10"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bonea"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton11"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="boneb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton12"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bonec"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2nd class"
+                        android:id="@+id/bbutton13"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton14"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btwoa"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton15"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btwob"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton16"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btwoc"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3rd class"
+                        android:id="@+id/bbutton17"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton18"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bthreea"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton19"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bthreeb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton20"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bthreec"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4th class"
+                        android:id="@+id/bbutton21"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton22"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfoura"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton23"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfourb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton24"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfourc"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5th class"
+                        android:id="@+id/bbutton25"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton26"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfivea"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton27"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfiveb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton28"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bfivec"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6th class"
+                        android:id="@+id/bbutton29"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton30"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsixa"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton31"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsixb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton32"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsixc"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7th class"
+                        android:id="@+id/bbutton33"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton34"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsevena"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton35"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsevenb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton36"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bsevenc"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8th class"
+                        android:id="@+id/bbutton37"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton38"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="beighta"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton39"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="beightb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton40"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="beightc"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9th class"
+                        android:id="@+id/bbutton41"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton42"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bninea"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton43"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bnineb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton44"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="bninec"/>
+                </TableRow>
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10th class"
+                        android:id="@+id/bbutton45"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/bbutton46"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btena"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/bbutton47"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btenb"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/bbutton48"
+                        android:textSize="12sp"
+                        android:background="#876997ad"
+                        android:textColor="#000000"
+                        android:onClick="btenc"/>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</HorizontalScrollView>

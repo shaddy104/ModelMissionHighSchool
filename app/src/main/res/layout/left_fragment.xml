@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/androidlayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_director"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/director_txt"
+            android:layout_below="@+id/image_director"
+            android:layout_centerHorizontal="true"
+            android:text="Dr.P RASANGI Phd. Director of Model Mission Group of Schools\n\n
+
+Dr.P Prasangi is the founder and Director of Model Mission Group of Schools. He is a retire Professor from Osmania University, Hyderabad. He is known for his self will and determination. and is a visionary educationist.\n
+His dream to establish a school took with in the year 1988, when Model Misssion School was standed in Lothkunta. Since then there is no looking back. Today the School has 2 Other Branches, one at Bollarum and the other at Majeedpur.This vision to serve the nation through education is now a reality.\n
+His Progreesive outlook and zeal to give the best to the student community with enable the institution achieve fulfill Success. "
+            android:textSize="12sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/principal_image"
+            android:layout_below="@+id/director_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mrs. P Grace Latha B.Sc.M.A.M.Ed Correspondent and Principal\n
+
+Mrs. P Gracelatha, Principal and Correspondent of Model Mission Group of Schools, is an able Administrator. She aims to impart Education with Ethics based on core Values of effort, discipline, Excellence and Service grounded firmly in her faith in God."
+            android:id="@+id/principal_txt"
+            android:layout_below="@+id/principal_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:layout_below="@+id/principal_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text="Head Mistress"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hm_txt"
+            android:layout_below="@+id/txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Mrs. Kavitha Sudhakar B.Sc. M.A.B.Ed. Head Mistress MMHS Lothkunta\n
+
+The  Headmistress of MMMS Lothkunta is a strict disciplinarian. With her unsurpassed sincerety she gives her best to both the Teachers and Student Community.\n
+
+
+
+
+
+\n\nMrs. Caroline Daniel M.A.B.Ed Headmistress MMHS Bollaram\n
+
+Mrs. Caroline has been working as a Headmistress of Model Mission High School Bollarum since June 2000. She has got a very clear philosophy of Education and clarity of Modern educational goals. She is a gifted and competent educationalist. She has brilliant insights into the cognitive process of learning and acquisition.  Hence throughout her 20Yrs of teaching and academic experience she implements a vast variety of methods and strategies through which she promotes cognitive education which illumines every student character and personality.\n
+As an administrator she interacts with the parents and Students with compassion and commitment with an intention to give them peoper direction and projection towards quality education and Career.\n
+
+
+
+\n\nMrs. Lillian Sampath M.A, B.Ed Headmistress Majeedpur\n
+
+An Excellent educationist who leaves no stone unturned to give her best to the students. Her Positive attitude and the eav with which all tackles even ciliate is commendable.\n
+Her Endeavour is to create  in every student a strong interest in learning.\n
+
+ "
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</ScrollView>

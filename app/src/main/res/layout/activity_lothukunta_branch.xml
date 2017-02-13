@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.modelmissionhighschool.LothukuntaBranch"
+    style="@style/androidlayout">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/loth_imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/lothukunta" />
+    <Button
+        style="@style/button"
+        android:id="@+id/exm_schedule"
+        android:layout_below="@+id/loth_imageView"
+        android:text="EXAM SCHEDULE"
+        android:layout_marginTop="10dp"
+        android:onClick="OnClickLothExmScd"/>
+
+    <Button
+        style="@style/button"
+        android:id="@+id/loth_time_table"
+        android:layout_below="@+id/exm_schedule"
+        android:text="TIME TABLE"
+        android:layout_marginTop="10dp"
+        android:onClick="OnClickLothTimeTable"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeMain" parent="@android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/Custom</item>
+    </style>
+
+    <style name="Custom" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#95b8ff</item>
+    </style>
+</resources>
